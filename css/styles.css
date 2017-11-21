@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
 .button {
     height: 2.5rem;
     width: 8rem;
@@ -7,4 +13,157 @@
 .button-primary {
     color: white;
     background-color:#008af5;
+}
+
+footer{
+    width: 100%;
+    min-height: 250px; /* MOBILE */
+    display: flex;
+    flex-direction: column; /* MOBILE */
+    justify-content: space-around;
+    align-items: center;
+    background: #37414B;
+    color: #A4b2b2;
+    font-size: 1em;
+    padding: 20px 0 30px 0;
+}
+
+footer > :first-child {
+    padding: 30px 0 30px 0;
+}
+
+footer img{
+    max-width: 100%;
+}
+
+footer p{
+    margin: 7px 0 0 0;
+    text-align: center;
+    color: rgb(126, 138, 138);
+    font-weight: bold;
+}
+
+footer ul{
+    padding: 0;
+    margin: 0 0 20px 0;  /* MOBILE */
+}
+
+footer ul li{
+    display: block;  /* MOBILE */
+    text-align: center;  /* MOBILE */
+    padding: 0;
+    margin: 0 0 15px 0;   /* MOBILE */
+}
+
+footer a{
+    color: #A4b2b2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #008af5;
+    text-decoration: underline; 
+}
+
+footer .right{
+    display: flex;
+    flex-direction: column; /* MOBILE */
+    justify-content: center;    
+}
+
+footer .social-content{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;  /* MOBILE */
+    font-size: 1.8em;
+}
+
+footer .social-content > :first-child {
+    padding: 0px 15px 0 0;
+}
+
+
+
+/* TABLET */
+@media only screen and (min-device-width : 768px) {
+
+    footer{
+        flex-direction: row;
+        min-height: 250px;
+        font-size: .9em;
+    }
+    
+    footer p{
+        text-align: left;
+    }
+
+    footer ul{
+        padding: 0;
+        margin: 0;  
+    }
+
+    footer ul li{
+        display: inline;
+        margin: 0 15px 0 0;
+    }
+
+    footer .right{
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    footer .social-content{
+        margin-left: 20px;
+    }
+    
+    footer .social-content > :first-child {
+        padding: 0px 10px 0 0;
+    }
+
+}
+
+/* DESKTOP */
+@media only screen and (min-device-width : 1024px) {
+    footer{
+        flex-direction: row;
+        min-height: 150px;
+        font-size: .8em;
+    }
+
+    footer > :first-child {
+        padding: 0;
+    }
+    
+    footer img{
+        max-width: 130px;
+    }
+
+    footer ul{
+        padding: 0;
+        margin: 0;
+    }
+    
+    footer ul li{
+        padding: 0;
+        margin: 0;
+    }
+    
+    footer ul li{
+        display: inline;
+        margin: 0 15px 0 0;
+    }
+    
+    footer .right{
+        flex-direction: row;
+    }
+    
+    footer .social-content{
+        margin-left: 30px;
+    }
+    
+    footer .social-content > :first-child {
+        padding: 0px 10px 0 0;
+    }
+
 }
