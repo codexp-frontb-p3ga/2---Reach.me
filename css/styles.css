@@ -86,6 +86,26 @@ footer .social-content > :first-child {
     padding: 0px 15px 0 0;
 }
 
+.get-started{
+    background: #008af5;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 250px;
+    padding: 50px 0 30px 0;
+}
+.get-started h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+.get-started p{
+    padding: 0 20px;
+    font-size: 1.2em;
+}
+
 
 
 /* TABLET */
@@ -127,7 +147,7 @@ footer .social-content > :first-child {
 }
 
 /* DESKTOP */
-@media only screen and (min-device-width : 1024px) {
+@media only screen and (min-device-width : 992px) {
     footer{
         flex-direction: row;
         min-height: 150px;
@@ -169,8 +189,9 @@ footer .social-content > :first-child {
         padding: 0px 10px 0 0;
     }
 
-    border: #008af5 solid .5px;
+    
 }
+
 .button-secondary {
     color: white;
     font-weight: bolder;
