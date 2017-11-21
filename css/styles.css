@@ -1,0 +1,10 @@
+.button {
+    height: 2.5rem;
+    width: 8rem;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.button-primary {
+    color: white;
+    background-color:#008af5;
+}
