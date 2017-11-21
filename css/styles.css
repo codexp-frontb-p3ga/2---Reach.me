@@ -3,8 +3,24 @@
     width: 8rem;
     box-sizing: border-box;
     border-radius: 30px;
+    font-family: sans-serif;
+    font-size: .8rem;
 }
 .button-primary {
     color: white;
+    font-weight: bolder;
     background-color:#008af5;
+    border: #008af5 solid .5px;
+}
+.button-secondary {
+    color: white;
+    font-weight: bolder;
+    background-color:#37414b;
+    border: #37414b solid .5px;
+}
+.button-outline {
+    color: #008af5;
+    font-weight: bolder;
+    background-color:#ffffff;
+    border: #e6edfb solid .5px;
 }
